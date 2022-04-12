@@ -148,8 +148,11 @@ int taskNum = 1;
 int times = 0;//下一次任务流时间
 double runTime = 0;
 //堆垛机x坐标偏移量
-double smShiftX = 0.98;
-double smShiftY = 0.05;
+//0.648 两个货位间的x距离  0.33 叉子到堆垛机x的距离
+double smShiftX = 0.311;
+double smShiftY = -0.09;
+// double smShiftX = 0.98;
+// double smShiftY = 0.05;
 //成垛资产数量
 int rNum = 1;
 
